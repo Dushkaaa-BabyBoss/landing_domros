@@ -1,0 +1,23 @@
+.nav {
+
+  &__list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  &__iten {
+    transition: 0.3s;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    line-height: 18px;
+
+    &:hover {
+      color: #c2c2c2;
+    }
+  }
+}

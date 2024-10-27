@@ -1,0 +1,247 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;0,14..32,500;1,14..32,100..900;1,14..32,500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap";
+.header {
+  background-color: #f3f3f3;
+  height: 100vh;
+}
+
+.header__top {
+  background-color: #333;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 33px;
+  display: flex;
+}
+
+.header__contact {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.header__body {
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 24px;
+  display: grid;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo__header {
+  height: 120px;
+}
+
+.nav__list {
+  gap: 20px;
+  list-style: none;
+  display: flex;
+}
+
+.nav__iten {
+  transition: all .3s;
+}
+
+.nav__link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: #c2c2c2;
+}
+
+.icon {
+  display: block;
+}
+
+.icon--phone {
+  background-image: url("icon-phone.f8d7226e.png");
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+}
+
+.icon--ukr, .icon--pln {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.content {
+  box-sizing: border-box;
+  padding-top: 50px;
+  background: linear-gradient(177deg, #3cc 0%, #fff 73%);
+  grid-column: span 8;
+  height: 87vh;
+  padding-inline: 120px;
+}
+
+.content__top {
+  justify-content: space-between;
+  display: flex;
+}
+
+.content__description {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.content__description--modify {
+  color: #099;
+}
+
+.content__bg {
+  width: 400px;
+}
+
+.content__body {
+  padding-top: 150px;
+}
+
+.clean__list {
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  list-style: none;
+  display: flex;
+}
+
+.clean__item {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.clean__img {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.clean__description {
+  text-transform: uppercase;
+  letter-spacing: 2%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.regular-clean__wrapper {
+  grid-template-columns: repeat(8, 1fr);
+  justify-content: center;
+  column-gap: 24px;
+  padding-top: 50px;
+  display: grid;
+}
+
+.regular-clean__title {
+  text-transform: uppercase;
+  padding-bottom: 30px;
+}
+
+.regular-clean__img {
+  object-fit: cover;
+  width: 400px;
+  height: 600px;
+}
+
+.regular-clean__left-side {
+  grid-column: span 3;
+}
+
+.regular-clean__right-side {
+  grid-column: span 5;
+}
+
+.regular-clean__list {
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.regular-clean__item {
+  font-size: 25px;
+}
+
+.regular-clean__item:before {
+  content: "";
+  background-image: url("check.45d41854.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+}
+
+.main {
+  background-color: #d9d9d9;
+  padding-inline: 150px;
+}
+
+.section__wrapper {
+  justify-content: center;
+  display: grid;
+}
+
+.footer__body {
+  padding-inline: 100px;
+  background-color: #d9d9d9;
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 24px;
+  padding-top: 200px;
+  display: grid;
+}
+
+.contact-us {
+  grid-column: span 8;
+}
+
+.contact-us__img {
+  width: 100%;
+}
+
+.contact-us--grid {
+  grid-template-columns: repeat(8, 1fr);
+  column-gap: 24px;
+  display: grid;
+}
+
+.contact-us__left-side {
+  flex-direction: column;
+  grid-column: span 4;
+  padding-top: 50px;
+  padding-left: 50px;
+  display: flex;
+}
+
+.contact-us__right-side {
+  grid-column: span 4;
+}
+
+.contact-us__title {
+  text-transform: uppercase;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.contact-us__description {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6, p, body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+/*# sourceMappingURL=index.b2d9cf43.css.map */

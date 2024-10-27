@@ -1,0 +1,22 @@
+.icon {
+  display: block;
+
+  &--phone {
+    background-image: url(./image/icon-phone.png);
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+  }
+
+  &--ukr {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  &--pln {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+}
