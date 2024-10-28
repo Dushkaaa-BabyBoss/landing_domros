@@ -10,223 +10,357 @@
 
 <body>
   <header class="header">
-    <div class="header__top">
-      <a href="" class="header__log">
-        <img src="./image/logo__png.png" alt="logo" class="logo logo__header">
-      </a>
+    <div class="header__wrapper">
+      <div class="header__top">
+        <a href="#" class="header__logo">
+          <img src="./image/logo__png.png" alt="logo" class="logo logo__header">
+        </a>
 
-      <div class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="" class="nav__link">Головна</a>
-          </li>
+        <nav class="nav header__nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Головна</a>
+            </li>
 
-          <li class="nav__item">
-            <a href="" class="nav__link">Звичайне прибирання</a>
-          </li>
+            <li class="nav__item">
+              <a href="#price" class="nav__link">Прайс лист</a>
+            </li>
 
-          <li class="nav__item">
-            <a href="" class="nav__link">Прибирання після ремонту</a>
-          </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Контакт</a>
+            </li>
+          </ul>
+        </nav>
 
-          <li class="nav__item">
-            <a href="" class="nav__link">Мийка вікон</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="" class="nav__link">Чищення меблів</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="" class="nav__link">Прибирання офісів</a>
-          </li>
-
-          <li class="nav__item">
-            <a href="" class="nav__link">Контакт</a>
-          </li>
-        </ul>
-      </div>
-
-      <div class="header__contact">
-        <a href="#" class="icon icon--phone"></a>
-        <img src="./image/ukr__icon.png" alt="" class="icon icon--ukr">
-        <img src="./image/icon--pln.jpg" alt="" class="icon icon--pln">
-      </div>
-    </div>
-
-    <div class="header__body">
-      <div class="content">
-        <div class="content__top">
-          <p class="content__description">Який<br>вид прибирання<br><span class="content__description--modify">потрібен
-              тобі?</span></p>
-          <img src="./image/clean__001.jpg" alt="logo clean" class="content__bg">
+        <div class="header__contact">
+          <a href="tel: +48 731 665 301" class="header__btn">ЗАМОВИТИ ПРИБИРАННЯ</a>
         </div>
+      </div>
 
-        <div class="content__body">
-          <div class="clean">
-            <ul class="clean__list">
-              <li class="clean__item">
-                <img src="./image/item__01.jpg" alt="" class="clean__img">
-                <p class="clean__description">Звичайне прибирання</p>
-              </li>
+      <div class="header__body">
+        <h1 class="header__title">Ми створені <span class="header__title--accent">для тебе!</span></h1>
+        <img src="./image/clean__001.jpg" alt="img title" class="logo header__body-image">
+      </div>
 
-              <li class="clean__item">
-                <img src="./image/item__02.jpg" alt="" class="clean__img">
-                <p class="clean__description">Прибирання після ремонту</p>
-              </li>
+      <div class="header__bottom">
+        <div class="header__servise">
+          <a href="#regular-clean" class="header__servise-link">
+            <img src="./image/item__01.jpg" alt="" class="header__servise-image logo">
+            <p class="header__servise-description">Звичайне прибирання</p>
+          </a>
 
-              <li class="clean__item">
-                <img src="./image/item__03.jpg" alt="" class="clean__img">
-                <p class="clean__description">Миття вікон</p>
-              </li>
+          <a href="#cleaning-remont" class="header__servise-link">
+            <img src="./image/item__02.jpg" alt="" class="header__servise-image logo">
+            <p class="header__servise-description">Прибирання після ремонту</p>
+          </a>
 
-              <li class="clean__item">
-                <img src="./image/item__04.jpg" alt="" class="clean__img">
-                <p class="clean__description">Чищення меблів</p>
-              </li>
+          <a href="#cleaning-window" class="header__servise-link">
+            <img src="./image/item__03.jpg" alt="" class="header__servise-image logo">
+            <p class="header__servise-description">Мийка вікон</p>
+          </a>
 
-              <li class="clean__item">
-                <img src="./image/item__05.jpg" alt="" class="clean__img">
-                <p class="clean__description">Прибирання офісів</p>
-              </li>
-            </ul>
-          </div>
+          <a href="#cleaning-sofa" class="header__servise-link">
+            <img src="./image/item__04.jpg" alt="" class="header__servise-image logo">
+            <p class="header__servise-description">Чищення меблів</p>
+          </a>
+
+          <a href="#cleaning-office" class="header__servise-link">
+            <img src="./image/item__05.jpg" alt="" class="header__servise-image logo">
+            <p class="header__servise-description">Прибирання офісів</p>
+          </a>
         </div>
       </div>
     </div>
   </header>
 
   <main class="main">
-    <div class="section__wrapper">
-      <section class="regular-clean" id="regular-clean">
-        <div class="regular-clean__wrapper">
-          <div class="regular-clean__left-side">
-            <h1 class="regular-clean__title">Звичайне прибирання</h1>
-            <img src="./image/item__01.jpg" alt="" class="regular-clean__img">
-          </div>
+    <section class="section">
+      <article class="section__body" id="regular-clean">
+        <h2 class="section__title">Звичайне прибирання</h2>
 
-          <div class="regular-clean__right-side">
-            <h1 class="regular-clean__title">Що входить в прибирання</h1>
-            <ul class="regular-clean__list">
-              <li class="regular-clean__item">Очищення підлоги від пилу та дрібного сміття</li>
-              <li class="regular-clean__item">Очищення від водного нальоту, залишків мила та інших забруднень у ванні та
-                на кухні</li>
-              <li class="regular-clean__item">Очищення від пилу та забруднень на горизонтальних поверхняв(столи,
+        <div class="section__description">
+          <img src="./image/item__01.jpg" alt="" class="logo section__img">
+
+          <div class="section__side clean">
+            <h3 class="clean__title">Що входить в прибирання ?</h3>
+            <ul class="clean__list">
+              <li class="clean__item">Очищення підлоги від пилу та дрібного сміття</li>
+              <li class="clean__item">Очищення від водного нальоту, залишків мила та інших забруднень у ванні та на
+                кухні</li>
+              <li class="clean__item">Очищення від пилу та забруднень на горизонтальних поверхняв(столи,
                 полиці,підвіконня)</li>
-              <li class="regular-clean__item">Очищення дзеркал та скляних поверхонь</li>
-              <li class="regular-clean__item">Складання речей на свої місця, організація простору</li>
-              <li class="regular-clean__item">Вологе прибирання підлоги</li>
-              <li class="regular-clean__item">Винос сміття(заміна сміттєвих пакетів)</li>
+              <li class="clean__item">Очищення дзеркал та скляних поверхонь</li>
+              <li class="clean__item">Складання речей на свої місця, організація простору</li>
+              <li class="clean__item">Вологе прибирання підлоги</li>
+              <li class="clean__item">Винос сміття(заміна сміттєвих пакетів)</li>
             </ul>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section class="regular-clean" id="regular-clean">
-        <div class="regular-clean__wrapper">
-          <div class="regular-clean__left-side">
-            <h1 class="regular-clean__title">Миття вікон</h1>
-            <img src="./image/item__03.jpg" alt="" class="regular-clean__img">
+      <article class="section__body" id="cleaning-remont">
+        <h2 class="section__title">Прибирання після ремонту</h2>
+
+        <div class="section__description">
+          <img src="./image/item__02.jpg" alt="" class="logo section__img">
+
+          <div class="section__side clean">
+            <h3 class="clean__title">Що входить в прибирання ?</h3>
+            <ul class="clean__list">
+              <li class="clean__item">Видалення будівельного сміття</li>
+              <li class="clean__item">Ретельне прибирання будівельного пилу</li>
+              <li class="clean__item">Очищення від пилу та забруднень на горизонтальних поверхняв(столи,
+                полиці,підвіконня)</li>
+              <li class="clean__item">Миття вікон і підвіконь</li>
+              <li class="clean__item">Детальне протирання всіх поверхонь</li>
+              <li class="clean__item">Очищення від плям (видалення слідів фарби, клею, шпаклівки)</li>
+              <li class="clean__item">Вологе прибирання підлоги(декілька етапів волого прибирання)</li>
+              <li class="clean__item">Очищення сантехніки на кухні та у сан вузлі</li>
+            </ul>
           </div>
+        </div>
+      </article>
 
-          <div class="regular-clean__right-side">
-            <h1 class="regular-clean__title">Що входить в прибирання</h1>
-            <ul class="regular-clean__list">
-              <li class="regular-clean__item">Видалення пилу та павутиння з підвіконня, рам</li>
-              <li class="regular-clean__item">Очищення рам (деревяних, пластикових, металевих) та підвіконь від пилу та
+      <article class="section__body" id="cleaning-window">
+        <h2 class="section__title">Миття вікон</h2>
+
+        <div class="section__description">
+          <img src="./image/item__03.jpg" alt="" class="logo section__img">
+
+          <div class="section__side clean">
+            <h3 class="clean__title">Що входить в прибирання ?</h3>
+            <ul class="clean__list">
+              <li class="clean__item">Видалення пилу та павутиння з підвіконня, рам</li>
+              <li class="clean__item">Очищення рам (деревяних, пластикових, металевих) та підвіконь від пилу та
                 забруднення</li>
-              <li class="regular-clean__item">Миття скла, поліровання, очищення фурнітури</li>
+              <li class="clean__item">Миття скла, поліровання, очищення фурнітури</li>
             </ul>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section class="regular-clean" id="regular-clean">
-        <div class="regular-clean__wrapper">
-          <div class="regular-clean__left-side">
-            <h1 class="regular-clean__title">Прибирання після ремонту</h1>
-            <img src="./image/item__02.jpg" alt="" class="regular-clean__img">
-          </div>
+      <article class="section__body" id="cleaning-sofa">
+        <h2 class="section__title">Чищення меблів</h2>
 
-          <div class="regular-clean__right-side">
-            <h1 class="regular-clean__title">Що входить в прибирання</h1>
-            <ul class="regular-clean__list">
-              <li class="regular-clean__item">Видалення будівельного сміття</li>
-              <li class="regular-clean__item">Ретельне прибирання будівельного пилу</li>
-              <li class="regular-clean__item">Миття вікон і підвіконь</li>
-              <li class="regular-clean__item">Детальне протирання всіх поверхонь</li>
-              <li class="regular-clean__item">Очищення від плям (видалення слідів фарби, клею, шпаклівки)</li>
-              <li class="regular-clean__item">Вологе прибирання підлоги(декілька етапів волого прибирання)</li>
-              <li class="regular-clean__item">Очищення сантехніки на кухні та у сан вузлі</li>
+        <div class="section__description">
+          <img src="./image/item__04.jpg" alt="" class="logo section__img">
+
+          <div class="section__side clean">
+            <h3 class="clean__title">Що входить в прибирання ?</h3>
+            <ul class="clean__list">
+              <li class="clean__item">Пилосошення</li>
+              <li class="clean__item">Видалення плям</li>
+              <li class="clean__item">Глибоке вологе чищення</li>
+              <li class="clean__item">Сушка</li>
+              <li class="clean__item">Обробка захисними засобами</li>
+              <li class="clean__item">Вологе прибирання підлоги</li>
+              <li class="clean__item">Дезодорування</li>
             </ul>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section class="regular-clean" id="regular-clean">
-        <div class="regular-clean__wrapper">
-          <div class="regular-clean__left-side">
-            <h1 class="regular-clean__title">Прибирання офісів</h1>
-            <img src="./image/item__05.jpg" alt="" class="regular-clean__img">
-          </div>
+      <article class="section__body" id="cleaning-office">
+        <h2 class="section__title">Прибирання офісів</h2>
 
-          <div class="regular-clean__right-side">
-            <h1 class="regular-clean__title">Що входить в прибирання</h1>
-            <ul class="regular-clean__list">
-              <li class="regular-clean__item">Прибирання робочих зон</li>
-              <li class="regular-clean__item">Очищення підлоги(пилосошення, вологе прибирання)</li>
-              <li class="regular-clean__item">Протирання поверхонь</li>
-              <li class="regular-clean__item">Миття скляних та дзеркальних поверхонь</li>
-              <li class="regular-clean__item">Винесення сміття</li>
-              <li class="regular-clean__item">Дезинфекція місць загального користування</li>
-              <li class="regular-clean__item">Прибирання кухні, сан-вузлів, зони відпочинку</li>
-              <li class="regular-clean__item">Ароматизація приміщення</li>
+        <div class="section__description">
+          <img src="./image/item__05.jpg" alt="" class="logo section__img">
+
+          <div class="section__side clean">
+            <h3 class="clean__title">Що входить в прибирання ?</h3>
+            <ul class="clean__list">
+              <li class="clean__item">Прибирання робочих зон</li>
+              <li class="clean__item">Очищення підлоги(пилосошення, вологе прибирання)</li>
+              <li class="clean__item">Протирання поверхонь</li>
+              <li class="clean__item">Миття скляних та дзеркальних поверхонь</li>
+              <li class="clean__item">Винесення сміття</li>
+              <li class="clean__item">Дезинфекція місць загального користування</li>
+              <li class="clean__item">Прибирання кухні, сан-вузлів, зони відпочинку</li>
+              <li class="clean__item">Ароматизація приміщення</li>
             </ul>
           </div>
         </div>
-      </section>
+      </article>
+    </section>
 
-      <section class="regular-clean" id="regular-clean">
-        <div class="regular-clean__wrapper">
-          <div class="regular-clean__left-side">
-            <h1 class="regular-clean__title">Чищення меблів</h1>
-            <img src="./image/item__04.jpg" alt="" class="regular-clean__img">
-          </div>
+    <section class="price" id="price">
+      <article>
+        <div class="price__wrapper">
+          <h2 class="price__title">Прайс лист</h2>
 
-          <div class="regular-clean__right-side">
-            <h1 class="regular-clean__title">Що входить в прибирання</h1>
-            <ul class="regular-clean__list">
-              <li class="regular-clean__item">Пилосошення</li>
-              <li class="regular-clean__item">Видалення плям</li>
-              <li class="regular-clean__item">Глибоке вологе чищення</li>
-              <li class="regular-clean__item">Сушка</li>
-              <li class="regular-clean__item">Обробка захисними засобами</li>
-              <li class="regular-clean__item">Дезодорування</li>
-            </ul>
+          <div class="price__content">
+            <div class="price__item">
+              <h3 class="price__item-title">Звичайне прибирання</h3>
+
+              <div class="price__item-content">
+                <div class="price__item-description">
+                  <p>До 150m2</p>
+                  <p>150m2 / 250m2</p>
+                  <p>Від 250m2</p>
+                </div>
+
+                <div class="price__item-price">
+                  <p>5zl m2</p>
+                  <p>4zl m2</p>
+                  <p>3zl m2</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="price__item">
+              <h3 class="price__item-title">Прибирання після ремонту</h3>
+
+              <div class="price__item-content">
+                <div class="price__item-description">
+                  <p>До 150м2</p>
+                  <p>150m2 / 250m2</p>
+                  <p>Від 250m2</p>
+                </div>
+
+                <div class="price__item-price">
+                  <p>13zl m2</p>
+                  <p>12zl m2</p>
+                  <p>10zl m2</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="price__item">
+              <h3 class="price__item-title">Миття вікон</h3>
+
+              <div class="price__item-content">
+                <div class="price__item-description">
+                  <p>1 шт від</p>
+                </div>
+
+                <div class="price__item-price">
+                  <p>20zl</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="price__item">
+              <h3 class="price__item-title">Прибирання офісу </h3>
+
+              <div class="price__item-content">
+                <div class="price__item-description">
+                  <p>До 150m2</p>
+                  <p>150m2 / 250m2</p>
+                  <p>Від 250m2</p>
+                </div>
+
+                <div class="price__item-price">
+                  <p>7zl m2</p>
+                  <p>5zl m2</p>
+                  <p>4zl m2</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="price__item price__item--align--center">
+              <h3 class="price__item-title">Чищення меблів</h3>
+
+              <div class="price__item-content">
+                <div class="price__item-description">
+                  <p>Прання дивану двох особового</p>
+                  <p>Прання дивану трьох особового </p>
+                  <p>Прання матрацу одноособового з однієї сторони</p>
+                  <p>Прання матрацу одноособового з двох сторін</p>
+                  <p>Прання двох особового матрацу з однієї сторони</p>
+                  <p>Прання двох особового матрацу з двох сторін</p>
+                  <p>Прання крісел</p>
+                </div>
+
+                <div class="price__item-price">
+                  <p>140zl</p>
+                  <p>180zl m2</p>
+                  <p>70zl m2</p>
+                  <p>140zl m2</p>
+                  <p>120zl m2</p>
+                  <p>240zl m2</p>
+                  <p>20zl шт.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-    </div>
+      </article>
+    </section>
+
+    <section class="about-us">
+      <article>
+        <div class="about-us__wrapper">
+          <h2 class="about-us__title">Чому саме <span class="about-us__title--modify">DOMROS ECO Clean</span></h2>
+          <p class="about-us__description">Причин набагато більше, ви самі відчуєте замовивши прибирання саме у нас</p>
+          <div class="about-us__item">
+            <h3 class="about-us__item-title">5 років досвіду</h3>
+            <p class="about-us__item-description">Понад 10.000 виконаних прибирань, квартир, будинків, офісів</p>
+          </div>
+
+          <div class="about-us__item">
+            <h3 class="about-us__item-title">Гарантія якості</h3>
+            <p class="about-us__item-description">Клінер виправить недоліки, якщо вам не сподобається результат</p>
+          </div>
+
+          <div class="about-us__item">
+            <h3 class="about-us__item-title">Використання екологічних та безпечних щасобів</h3>
+            <p class="about-us__item-description">Ми використовуєо екологічні засоби які є безпечні для людей та
+              домашніх тварин</p>
+          </div>
+
+          <div class="about-us__item">
+            <h3 class="about-us__item-title">Сучасне обладнання</h3>
+            <p class="about-us__item-description">Використання новітнього обладнання, що дозволяє досягти найвищої
+              якості</p>
+          </div>
+
+          <div class="about-us__item">
+            <h3 class="about-us__item-title">Доступна ціна</h3>
+            <p class="about-us__item-description">Ми пропонуємо конкуренті ціні та гнучку систему знижок для постійних
+              клієнтів</p>
+          </div>
+
+          <div class="about-us__item">
+            <h3 class="about-us__item-title">Страхування</h3>
+            <p class="about-us__item-description">Компенсація завданих збитків, якщо щось піде не так</p>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="response">
+      <article>
+        <div class="response__wrapper">
+          <h2 class="response__title">Відгуки клієнтів які скористался нашими послугами</h2>
+
+          <div class="response__container">
+            <img src="./image/response-001.jpg" alt="response" class="logo response__item response__item--transform-1">
+            <img src="./image/response-002.jpg" alt="response" class="logo response__item response__item--transform-2">
+            <img src="./image/response-003.jpg" alt="response" class="logo response__item response__item--transform-1">
+            <img src="./image/response-004.jpg" alt="response" class="logo response__item response__item--transform-1">
+            <img src="./image/response-005.jpg" alt="response" class="logo response__item response__item--transform-2">
+            <img src="./image/response-006.jpg" alt="response" class="logo response__item response__item--transform-1">
+          </div>
+
+          <div class="response__social" id="contact">
+            <h3 class="response__social-title">Наші соціальні мережі <br>
+              <div class="response__social-container">
+                Cлідкуйте за нами в
+                <a href="https://www.instagram.com/domrosecoclean/profilecard/?igsh=c3I1MmxwamlhOHI3" target="_blank">
+                  <img src="./image/icon-instagram.png" alt="instagram" class="icon icon--instagram">
+                </a>
+                та
+                <a href="https://www.tiktok.com/@domrosecoclean?_t=8qv3yzHfiuk&_r=1" target="_blank">
+                  <img src="./image/icon-tiktok.png" alt="tik tok" class="icon icon--tiktok">
+                </a>
+              </div>
+              Ми часто публікуємо там знижки
+            </h3>
+          </div>
+        </div>
+      </article>
+    </section>
   </main>
-
-  <footer class="footer">
-    <div class="footer__body">
-      <div class="contact-us contact-us--grid">
-        <div class="contact-us__left-side">
-          <h1 class="contact-us__title">Звязок з нами</h1>
-          <p class="contact-us__description">Ми завжди готові відповісти на всі питання, що вас цікавлять, чекаємо на
-            ваш дзвінок</p>
-          <a href="tel: +48 792 869 491">+48 792 869 491</a>
-          <a href="mailto: biuro@domroseco.pl">biuro@domroseco.pl</a>
-          <a href="#">ul. Olowkowa 1C / 50</a>
-        </div>
-
-        <div class="contact-us__right-side">
-          <img src="./image/logo__png.png" alt="" class="contact-us__img">
-        </div>
-      </div>
-    </div>
-  </footer>
 </body>
 
 </html>

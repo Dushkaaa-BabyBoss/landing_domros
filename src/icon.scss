@@ -1,22 +1,22 @@
 .icon {
   display: block;
+  transition: 0.3s;
 
-  &--phone {
-    background-image: url(./image/icon-phone.png);
-    background-size: cover;
-    width: 30px;
-    height: 30px;
+  &--instagram {
+    width: 35px;
+    margin-top: 7px;
+
+    &:hover {
+      scale: 1.2;
+    }
   }
 
-  &--ukr {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-  }
+  &--tiktok {
+    width: 35px;
+    margin-top: 7px;
 
-  &--pln {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+    &:hover {
+      scale: 1.2;
+    }
   }
 }
